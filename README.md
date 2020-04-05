@@ -1,0 +1,72 @@
+Crash Analysis of Connecticut Rt. 84: 2015-2019
+------------
+
+Author: Anna Konstorum (konstorum.anna@gmail.com)
+Last updated: 04-05-2020
+
+
+INTRODUCTION
+------------
+Interstate 84 highway runs from southeast to northwest Connecticut, covering approximately one hundred miles en route.  It acts as a main thoroughfare into and out of the larger Connecticut towns of Hartford and Waterbury, and is often the source of contention regarding expansion and construction projects [1-2].  The Connecticut Crash Data Repository (CTCDR) is a rich resource of crash data in Connecticut, with data available dating from 1995 to the present for all accidents on Connecticut's roadways [3].  The CTCDR provides an interactive method to visualize certain features of the data - and as we show below, additional visualization methodology can serve to augment and complement the information provided by CTCDR.
+
+In this analysis, we create visualizations of crash statistics for route 84 from 2015-2019, overlaid with exit markers and town delineations, and separated into `Eastbound' and `Westbound' categories.  Using these visualizations, it is easy to observe where and when accident peaks occur, and therefore make more informed decisions regarding route planning.  We hope that the visualizations can help drivers and decision-makers make objective assessments for traffic and crash data on I-84.  We provide all code for the visualizations in a public repository, for those interested in replicating and further exploring the data.  We will continue to update this page with additional analyses from the data.
+
+Furthermore, we expect that this analysis can be used to compare against the expected marked change in traffic behavior in 2020 due to the COVID-19 epidemic.
+
+The Jupyter notebook for all updated analyses is found [[here]](https://github.com/akonstodata/CT_crash_analysis/blob/master/code/CT84_Analysis_2015_2019_v2.ipynb)
+
+RESULTS
+------------
+
+We consider crash data recorded from January, 2015 - December, 2019, which includes information from the Model Minimum Uniform Crash Criteria (MMUCC) guidelines dataset that houses crash data captured by a revised Connecticut Uniform Police Crash Report (PR-1).
+
+
+Frequency of accidents by week and month in 2015-2019
+------------
+
+We plot total crash frequency as a function of week and month, and observe patterns of cyclical peaks (Fig 1, see Jupyter code for interactive version).
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig_1_totalfreq.png)
+
+Frequency of accidents by town
+------------
+
+In order to get a general sense of which towns most accidents occur, we plot a histogram of the total number of crashes by town, in descending order of crash number (Fig 2).
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig2_bytown.png)
+
+
+Visualization of accident frequency by location and direction
+------------
+
+We visualize accident information overlaid on exit, mile, and town markers (Fig 3).
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig3_vis.png)
+
+We now compare accidents during morning vs. evening rush hours.  We observe many accidents in West Hartford going eastbound and east Hartford going westbound, not surprising that accidents going into Hartford are higher in the mornings (Fig 4a).  The reverse trend is evident in the evening rush hour (Fig 4b).
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig4a_vis_rush_morn.png)
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig4b_vis_rush_eve.png)
+
+
+Zoom in on one town: Southington
+------------
+
+By zooming in our analysis on Southington, we observe a major increase in accidents surrounding exits, especially exits 30-32 (Fig 5).
+
+![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig5_vis_southington.png)
+
+References
+------------
+
+(1) The future of I-84. News-Times\\
+[[1]] (https://www.newstimes.com/local/article/Report-I-84-expansion-among-nation-s-biggest-11083090.php)  I-84 expansion among nation's biggest boondoggles.  News-Times (April 17, 2017) \\
+[[2]] (https://www.newstimes.com/local/article/No-end-in-sight-for-traffic-problems-on-7870279.php) No end in sight for traffic problems on overburdened I-84.  News-Times (May 23, 2016)
+
+Source Data
+------------
+[[3]](https://ctcrash.uconn.edu/) Connecticut Crash Data Repository
+[[4]](https://portal.ct.gov/dot) Connecticut Department of Transportation
+
+
