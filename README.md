@@ -60,7 +60,7 @@ By zooming in our analysis on Southington, we observe a major increase in accide
 References
 ------------
 
-[[1]] (https://www.newstimes.com/local/article/Report-I-84-expansion-among-nation-s-biggest-11083090.php)  I-84 expansion among nation's biggest boondoggles.  News-Times (April 17, 2017) 
+[[1]](https://www.newstimes.com/local/article/Report-I-84-expansion-among-nation-s-biggest-11083090.php)  I-84 expansion among nation's biggest boondoggles.  News-Times (April 17, 2017) 
 
 [[2]] (https://www.newstimes.com/local/article/No-end-in-sight-for-traffic-problems-on-7870279.php) No end in sight for traffic problems on overburdened I-84.  News-Times (May 23, 2016)
 
