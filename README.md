@@ -16,6 +16,7 @@ Furthermore, we expect that this analysis can be used to compare against the exp
 The Jupyter notebook for all updated analyses is found [[here]](https://github.com/akonstodata/CT_crash_analysis/blob/master/code/CT84_Analysis_2015_2019_v2.ipynb)
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
+
 Last updated: 04-05-2020
 
 Results
@@ -34,7 +35,7 @@ We plot total crash frequency as a function of week and month, and observe patte
 Frequency of accidents by town
 ------------
 
-In order to get a general sense of which towns most accidents occur, we plot a histogram of the total number of crashes by town, in descending order of crash number (Fig 2).
+In order to get a general sense of which towns most accidents occur, we plot a histogram of the total number of crashes on I-84 by town, in descending order of crash number (Fig 2).
 
 ![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig2_bytown.png)
 
@@ -46,19 +47,23 @@ We visualize accident information overlaid on exit, mile, and town markers (Fig 
 
 ![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig3_vis.png)
 
-We now compare accidents during morning vs. evening rush hours.  We observe many accidents in West Hartford going eastbound and east Hartford going westbound, not surprising that accidents going into Hartford are higher in the mornings (Fig 4a).  The reverse trend is evident in the evening rush hour (Fig 4b).
+We now compare accidents during morning vs. evening rush hours.  We observe a high level of eastbound accidents in West Hartford and westbound accidents in East Hartford, not surprising as these accidents follow expected traffic commute patterns in Hartford (Fig 4a).  The reverse trend is evident in the evening rush hour (Fig 4b).
 
 ![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig4a_vis_rush_morn.png)
-
+------------
 ![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig4b_vis_rush_eve.png)
 
 
-Zoom in on one town: Southington
+Close look at one town: Southington
 ------------
 
-By zooming in our analysis on Southington, we observe a major increase in accidents surrounding exits, especially exits 30-32 (Fig 5).
+By focusing our analysis on Southington, we observe a major increase in accidents surrounding exits, especially exits 30-32 (Fig 5).
 
 ![](https://github.com/akonstodata/CT_crash_analysis/blob/master/results/Fig5_vis_southington.png)
+
+Conclusions
+------------
+A visual analysis of accident frequency on I-84 reveals easy-to-observe patterns that trend to traffic volume and seasonal peaks.  It reveals higher crash frequency surrounding on- and off-ramps (e.g. Southington), which may be useful for allocation of monitoring resources.  Further planned analyses include adding severity and DUI information to the time- and location-specific visualizations.
 
 References
 ------------
@@ -66,6 +71,7 @@ References
 [[1]](https://www.newstimes.com/local/article/Report-I-84-expansion-among-nation-s-biggest-11083090.php)  I-84 expansion among nation's biggest boondoggles.  News-Times (April 17, 2017) 
 
 [[2]](https://www.newstimes.com/local/article/No-end-in-sight-for-traffic-problems-on-7870279.php) No end in sight for traffic problems on overburdened I-84.  News-Times (May 23, 2016)
+
 
 Source Data
 ------------
