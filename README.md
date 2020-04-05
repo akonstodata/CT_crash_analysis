@@ -63,7 +63,7 @@ By focusing our analysis on Southington, we observe a major increase in accident
 
 Conclusions
 ------------
-A visual analysis of accident frequency on I-84 reveals easy-to-observe patterns that trend to traffic volume and seasonal peaks.  It reveals higher crash frequency surrounding on- and off-ramps (e.g. Southington), which may be useful for allocation of monitoring resources.  Further planned analyses include adding severity and DUI information to the time- and location-specific visualizations.
+A visual analysis of accident frequency on I-84 reveals easy-to-observe patterns that trend to traffic volume and seasonal accident peaks.  It reveals higher crash frequency surrounding on- and off-ramps (e.g. Southington), which may be useful for allocation of monitoring resources.  Further planned analyses include adding severity and DUI information to the time- and location-specific visualizations.
 
 References
 ------------
