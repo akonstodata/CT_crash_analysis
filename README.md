@@ -1,11 +1,8 @@
 Crash Analysis of Connecticut Rt. 84: 2015-2019
 ------------
 
-Author: Anna Konstorum (konstorum.anna@gmail.com)
-Last updated: 04-05-2020
 
-
-INTRODUCTION
+Introduction
 ------------
 Interstate 84 highway runs from southeast to northwest Connecticut, covering approximately one hundred miles en route.  It acts as a main thoroughfare into and out of the larger Connecticut towns of Hartford and Waterbury, and is often the source of contention regarding expansion and construction projects [1-2].  The Connecticut Crash Data Repository (CTCDR) is a rich resource of crash data in Connecticut, with data available dating from 1995 to the present for all accidents on Connecticut's roadways [3].  The CTCDR provides an interactive method to visualize certain features of the data - and as we show below, additional visualization methodology can serve to augment and complement the information provided by CTCDR.
 
@@ -15,7 +12,10 @@ Furthermore, we expect that this analysis can be used to compare against the exp
 
 The Jupyter notebook for all updated analyses is found [[here]](https://github.com/akonstodata/CT_crash_analysis/blob/master/code/CT84_Analysis_2015_2019_v2.ipynb)
 
-RESULTS
+Contact: Anna Konstorum (konstorum.anna@gmail.com)
+Last updated: 04-05-2020
+
+Results
 ------------
 
 We consider crash data recorded from January, 2015 - December, 2019, which includes information from the Model Minimum Uniform Crash Criteria (MMUCC) guidelines dataset that houses crash data captured by a revised Connecticut Uniform Police Crash Report (PR-1).
