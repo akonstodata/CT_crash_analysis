@@ -4,7 +4,7 @@ Crash Analysis for Connecticut I-84: 2015-2019
 
 Introduction
 ------------
-Interstate 84 runs from southeast to northwest Connecticut, covering approximately one hundred miles en-route.  It acts as a main thoroughfare into and out of the larger Connecticut towns of Hartford and Waterbury, and is often the source of contention regarding expansion and construction projects [1-2].  
+Interstate 84 runs from eastern to western Connecticut, covering approximately one hundred miles en-route.  It acts as a main thoroughfare into and out of the larger Connecticut towns of Hartford and Waterbury, and is often the source of contention regarding expansion and construction projects [1-2].  
 
 The Connecticut Crash Data Repository (CTCDR) is a rich resource of crash data in Connecticut, with data available dating from 1995 to the present for all accidents on Connecticut's roadways [3].  The CTCDR provides an interactive method to visualize certain features of the data.  As we show below, visualizations with additional overlays of local information can serve to augment and complement the information provided by CTCDR.
 
